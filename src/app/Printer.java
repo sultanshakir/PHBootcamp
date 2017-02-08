@@ -1,5 +1,7 @@
 package app;
 
+import java.util.Scanner;
+
 public class Printer {
 
     public static void print(String content) {
@@ -13,4 +15,5 @@ public class Printer {
     public static void println() {
         System.out.println();
     }
+
 }
