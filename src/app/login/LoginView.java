@@ -4,8 +4,6 @@ import app.Printer;
 import app.Prompter;
 import app.accounts.AccountView;
 
-import java.util.Scanner;
-
 public class LoginView {
 
     public void render() {
