@@ -3,6 +3,7 @@ package app.login;
 import app.Printer;
 import app.Prompter;
 import app.accounts.AccountView;
+import app.navigation.NavigationView;
 
 public class LoginView {
 
@@ -23,7 +24,10 @@ public class LoginView {
 
         boolean pinIsValid = presenter.validatePin(credentials.getCardNumber(), credentials.getPin());
         if (pinIsValid) {
-            new AccountView().render();
+            // TODO: remove comment when AccountView is implemented
+            // new AccountView().render();
+
+            new NavigationView().render();
         } else {
             Printer.println("Didn't recognize that pin/number");
         }
