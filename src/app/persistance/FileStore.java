@@ -6,8 +6,13 @@ import app.persistance.value.User;
 public class FileStore implements DataStore{
 
   @Override
-  public void addUser(User user) {
+  public User getUser() {
     return null;
+  }
+
+  @Override
+  public void addUser(User user) {
+
   }
 
   @Override
